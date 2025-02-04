@@ -85,6 +85,27 @@
     </tr>
 </table>
 
+<hr>
+<h2>Python Code Example</h2>
+<p>This is a simple Python script that prints a greeting based on the current time of day.</p>
+
+<pre>
+import datetime
+
+def greet():
+    hour = datetime.datetime.now().hour
+    if hour < 12:
+        print("Good morning!")
+    elif hour < 18:
+        print("Good afternoon!")
+    else:
+        print("Good evening!")
+
+greet()
+</pre>
+
+<p>Source: <a href="https://www.python.org/">Python Official</a></p>
+
 </body>
 </html>
 
