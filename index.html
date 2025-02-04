@@ -86,25 +86,18 @@
 </table>
 
 <hr>
-<h2>Python Code Example</h2>
-<p>This is a simple Python script that prints a greeting based on the current time of day.</p>
+<h2>TypeScript Code Example</h2>
+<p>This is a simple TypeScript object using the <b>Record</b> utility type.</p>
 
 <pre>
-import datetime
-
-def greet():
-    hour = datetime.datetime.now().hour
-    if hour < 12:
-        print("Good morning!")
-    elif hour < 18:
-        print("Good afternoon!")
-    else:
-        print("Good evening!")
-
-greet()
+const myTypedObject: Record<string, object> = {
+    first: {...},
+    second: {...},
+    ...
+};
 </pre>
 
-<p>Source: <a href="https://www.python.org/">Python Official</a></p>
+<p>Source: <a href="https://code.pieces.app/collections/typescript">TypeScript Official</a></p>
 
 </body>
 </html>
