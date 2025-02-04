@@ -2,5 +2,5 @@
 # WebApps-S25-Assignment-3
 Assignment 3 - Basic HTML
 
-Hosted at [web pages](https://44-563-webapps-s25.github.io/44563-webapps-s25-assignment3-CharanReddy2504/)
+Hosted at [web pages](https://44-563-webapps-s25.github.io44563-webapps-s25-assignment3-CharanReddy2504/)
 
